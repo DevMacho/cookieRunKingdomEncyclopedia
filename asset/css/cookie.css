@@ -1,0 +1,124 @@
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: center;
+	padding-top: 80px;
+}
+
+header {
+	position: fixed;
+	background-color: white;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 8px 12px;
+	box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.logo {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+
+.cookieIMG {
+	margin-top: 80px;
+}
+
+#cookieName {
+	font-weight: 900;
+	font-size: 38px;
+	margin-bottom: 0;
+}
+
+#cookieLevel {
+	width: 15%;
+}
+
+hr {
+	width: 30px;
+	color: black;
+	margin-top: 20px;
+}
+
+#cookieIntroduce {
+	width: 60%;
+	display: block;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 20px auto;
+}
+
+.type {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.typeIMG {
+	margin-top: 5px;
+	width: 20px;
+	height: 19px;
+}
+
+h3 {
+	margin-top: 60px;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.skill {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cookieSkillIMG {
+	width: 20%;
+	height: 20%;
+	margin-right: 20px;
+}
+
+#cookieSkillName {
+	font-size: 24px;
+	margin: 0;
+	font-weight: 800;
+}
+
+#skillIntro {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.coolTime {
+	display: flex;
+	font-size: 20px;
+	margin: 0;
+	justify-content: center;
+}
+
+h5 {
+	margin: 0;
+	font-weight: 300;
+}
+
+#cookieSkillCoolTIme {
+	display: block;
+	margin-left: 3px;
+}
+
+.topping {
+	margin: 8px 24px;
+}
