@@ -1,0 +1,236 @@
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: whitesmoke;
+}
+
+.cookieTitle,
+.toppingTitle,
+.treasureTitle {
+	color: white;
+	width: 150px;
+	text-align: center;
+	margin: 0px auto;
+	font-size: 52px;
+	font-weight: 900;
+	padding-bottom: 3px;
+	margin-top: 70px;
+}
+
+.cookieTitle {
+	background-color: #df8825;
+}
+
+.toppingTitle {
+	background-color: rgb(255, 67, 34);
+}
+
+.treasureTitle {
+	background-color: rgb(230, 59, 139);
+	margin-top: 200px;
+}
+
+header {
+	position: fixed;
+	background-color: white;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 8px 12px;
+	box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.goTop {
+	color: black;
+	text-decoration: none;
+	width: 80px;
+	height: 80px;
+	display: block;
+	background-color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border: solid 3px black;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 50px;
+	box-shadow: 4px 4px 6px rgb(40 40 83 / 15%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.logo {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+
+.typeFilter {
+	background-color: #2c2c2c;
+	margin-top: 80px;
+	padding: 4px 24px;
+}
+
+.types {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	justify-content: center;
+}
+
+.type {
+	margin: 0 10px;
+	padding: 8px 24px;
+	border-radius: 15px;
+	transition: 0.2s;
+	font-size: 16px;
+}
+
+.type:hover {
+	background-color: #000000;
+}
+
+.type a {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.cookies {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cookie {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	width: 43%;
+	margin-top: 60px;
+	margin: 8px 12px;
+	background-color: white;
+	padding: 8px 12px;
+	box-shadow: 4px 4px 6px rgb(40 40 83 / 15%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.cookieIMG {
+	width: 90%;
+}
+
+.cookieLEVEL {
+	width: 30%;
+}
+
+.imgbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 800;
+	margin: 0px;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cookieTYPE {
+	width: 22%;
+	height: 40%;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.toppings {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.topping {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+	margin-top: 20px;
+	padding: 40px 0;
+	margin: 8px 12px;
+	border-radius: 30px;
+	background-color: white;
+	box-shadow: 4px 4px 6px rgb(40 40 83 / 15%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.toppingIMG {
+	width: 90%;
+}
+
+.toppingEffect {
+	margin: 0;
+}
+
+.treasures {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.treasure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+	background-color: white;
+	margin-top: 20px;
+	padding: 40px 0;
+	margin: 8px 12px;
+	border-radius: 30px;
+	box-shadow: 4px 4px 6px rgb(40 40 83 / 15%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.treasureIMG {
+	width: 100%;
+}
+
+.treasureLEVEL {
+	margin-top: 20px;
+	width: 150px;
+}
+
+.treasureEffect {
+	margin: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+	.cookie {
+		width: 30%;
+	}
+	.topping {
+		width: 20%;
+	}
+	.treasure {
+		width: 20%;
+	}
+}
